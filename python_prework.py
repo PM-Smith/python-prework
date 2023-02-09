@@ -1,13 +1,15 @@
 # Question 1
-# Write a function to print "hello_USERNAME!" USERNAME is the input of the function.
+# Write a function to print "hello_USERNAME!" 
+# USERNAME is the input of the function.
 
 def hello_name(user_name):
-    "Displays greeting and username."
+    """Displays greeting and username."""
     print("hello_" + user_name.upper() + "!")
 
 
 # Question 2
-# Write a python function, first_odds that prints the odd numbers from 1-100 and returns nothing
+# Write a python function, first_odds that prints the odd numbers 
+# from 1-100 and returns nothing.
 
 def first_odds():
     """Prints odd numbers 1-100"""
@@ -16,9 +18,11 @@ def first_odds():
 
 
 # Question 3
-# Please write a Python function, max_num_in_list to return the max number of a given list.
+# Please write a Python function, 
+# max_num_in_list to return the max number of a given list.
+
 def max_num_in_list(a_list):
-    "Prints max digit in list."
+    """Prints max digit in list."""
     print(max(a_list))
 
 
@@ -28,7 +32,7 @@ def max_num_in_list(a_list):
 # The return should be boolean Type (true/false).
 
 def is_leap_year(a_year):
-    "Returns True/False if given year is a leap year"
+    """Returns True/False if given year is a leap year"""
     if a_year % 400 == 0:
         return True
     elif a_year % 4 == 0 and a_year % 100 != 0:
