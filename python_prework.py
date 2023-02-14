@@ -37,8 +37,6 @@ def is_leap_year(a_year):
         return True
     elif a_year % 4 == 0 and a_year % 100 != 0:
         return True
-    elif a_year % 4 == 0:
-        return True
     else:
         return False
 
